@@ -20,7 +20,7 @@ for (i = 0; i < autorizzate.length; i++) {
 
 const mess = document.querySelector("h1");
 
-//In base all'accesso è true o false manda un allert
+//In base all'accesso è true o false stampa un messaggio 
 if (autorizzazione == true) {
     mess.innerHTML = "Accesso Consentito!"
 } else {
