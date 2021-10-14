@@ -18,11 +18,13 @@ for (i = 0; i < autorizzate.length; i++) {
     }
 }
 
+const mess = document.querySelector("h1");
+
 //In base all'accesso è true o false manda un allert
 if (autorizzazione == true) {
-    alert("Accesso Consentito!")
+    mess.innerHTML = "Accesso Consentito!"
 } else {
-    alert("Accesso Negato!")
+    mess.innerHTML = "Accesso Negato!"
 }
 
 
